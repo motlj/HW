@@ -1,6 +1,12 @@
 <?php
 
 $myString = "I really hope that I'm doing this correctly.";
-$myArray = explode(" ", $myString);
-print_r($myArray);
+//Incomplete code
+$word = "";
+$explosion = array();
+	for ($i = 0; $i == count($myString); $i++){
+		if($myString{$i} == " "){
+			$explosion[$i] = ;
+}
+}
 ?>
