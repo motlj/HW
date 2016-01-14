@@ -28,10 +28,4 @@ return $myExplosion;
 }
 
 print_r (explosion(" ", "I really hope this works."));
-
-
-
-
-
-
 ?>
