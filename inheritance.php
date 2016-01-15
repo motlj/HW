@@ -1,5 +1,5 @@
 <?php
-class car {
+class vehicle {
 	var $make;  //properties
 	var $model;
 	var $body;
@@ -17,7 +17,7 @@ class car {
 	function __breaksDown() {;}
 	function __turns(){;}
 }
-class truck extends Car {
+class truck extends vehicle {
 	function __construct(){;}
 	function __haulPayload(){;}
 	function __tow(){;}

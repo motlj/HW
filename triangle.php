@@ -53,7 +53,7 @@ $col = 5; //starts the columns at 5
 }
 }
 
-$printShape = new ShapeMaker (4);
+$printShape = new ShapeMaker (4);   //creates a variable calling class
 	$printShape->Triangle();
 	$printShape->BackwardsTriangle();
 	$printShape->UpsideDownTriangle();
